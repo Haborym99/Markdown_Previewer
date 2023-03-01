@@ -15,7 +15,7 @@ textarea {
   margin-bottom: 50px;
   margin-top: 50px;
   padding: 10px;
-  background-color:blanchedalmond ;
+  background-color: blanchedalmond;
 }
 
 #preview {
@@ -33,9 +33,11 @@ textarea {
 
 code {
   background-color: #f9bc60;
-  padding: 10px;
-  display:inline-block;
-  border-radius: 15px;
+  margin: auto;
+  display: inline-block;
+  border-radius: 5px;
+  width: 100%;
+  overflow: auto;
 }
 
 a {
@@ -44,12 +46,12 @@ a {
   font-weight: bold;
 }
 
-blockquote{
+blockquote {
   border-left: 3px #001e1d solid;
   padding-left: 10px;
 }
 
-img{
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -57,7 +59,7 @@ img{
   max-width: 500px;
 }
 
-footer{
+footer {
   text-align: center;
   color: white;
   font-weight: bold;
